@@ -2,22 +2,125 @@
 OUTER BODY
 */
 body {
-  background-color: #ffffff;
+  background-color: #fbfaf9;
 }
 
 /* 
 FONT
 */
 div {
-  font-family: "Monaco" !important;
-  background-color: white !important;
-  color: black !important;
+  font-family: "Roboto", Helvetica, Arial, sans-serif; !important;
+  background-color: #fbfaf9 !important;
+  color: #485e89 !important;
 }
-dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td, header {
-  font-family: "Monaco" !important;
-  background-color: white !important;
+dl, dt, dd, ul, ol, li, pre, form, p, blockquote, header {
+  font-family: "Roboto", Helvetica, Arial, sans-serif; !important;
+  background-color: #fbfaf9 !important;
   border: 0px !important;
-  color: black !important;
+  color: #485e89 !important;
+}
+hr {
+  margin: 1rem 0;
+  color: #518fc6;
+  border: 0;
+  border-top: 1px solid;
+  opacity: 0.25;
+}
+
+h1,h2,h3,h4,h5,h6,
+ {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #b2a3cd;
+}
+
+
+h1
+ {
+    font-size: 3rem;
+  }
+
+h2
+  {
+    font-size: 2.25rem;
+  }
+
+h3
+ {
+    font-size: 1.875rem;
+  }
+
+h4
+ {
+    font-size: 1.5rem;
+  }
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+ol,
+ul {
+  padding-left: 2rem;
+}
+
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+dt {
+  font-weight: 600;
+}
+
+dd {
+  margin-bottom: .5rem;
+  margin-left: 0;
+}
+
+blockquote {
+  margin: 0 0 1rem;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+small,
+.small {
+  font-size: 0.875em;
+}
+
+a {
+  color: #efbc4b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #518fc6;
+  text-decoration: none;
+}
+
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow: auto;
+  font-size: 0.875em;
 }
 
 /* 
@@ -59,8 +162,38 @@ BUTTONS
 }
 
 /* 
-OTHER 
+Tables
 */
+
+table {
+  caption-side: bottom;
+  border-collapse: collapse;
+}
+
+caption {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: #b2a3cd;
+  text-align: left;
+}
+
+th {
+  text-align: inherit;
+  }
+
+thead
+{ background-color:#B2a3cd;
+  color: #fbfaf9;
+  vertical-align: bottom;
+}
+
+thead,tbody,tfoot,tr,td,th {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+}
+
+
 
 /* Invoices page, legend at the bottom that shows invoice type */
 .invoice-legend {
