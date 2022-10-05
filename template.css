@@ -144,21 +144,21 @@ BUTTONS
 #subscription-change-offer-btn, #subscription-change-plan-btn, #cancel-link, 
 #billings-update-btn, #shipping-address-edit-btn, #subscription-configure-btn, 
 #hold-link, #subscription-apply-coupon-btn, #resume-link {
-  background: #000000 !important;
-  color: #fff;
+  background: #b2a3cd !important;
+  color: #ffffff;
   border-color: transparent;
 }
 /* save and submit buttons */
 .button--utility, .button-submit {
-    background: #000000 !important;
-    border-color: transparent;
-    color: #fff;
+    background: #b2a3cd !important;
+  color: #ffffff;
+  border-color: transparent;
 }
 /* All other buttons */
 .button {
-  background: #000000 !important;
+  background: #518fc6 !important;
   border-color: transparent;
-  color: #fff;
+  color: #ffffff;
 }
 
 /* 
