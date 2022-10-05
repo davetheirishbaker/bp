@@ -5,16 +5,18 @@ body {
   background-color: #fbfaf9;
 }
 
+
+
 /* 
 FONT
 */
 div {
-  font-family: "Roboto", Helvetica, Arial, sans-serif; !important;
+  font-family: "Roboto", Helvetica, Arial, sans-serif; 
   background-color: #fbfaf9 !important;
   color: #485e89 !important;
 }
-dl, dt, dd, ul, ol, li, pre, form, p, blockquote, header {
-  font-family: "Roboto", Helvetica, Arial, sans-serif; !important;
+dl, dt, dd, ul, ol, pre, form,blockquote, nav {
+  font-family: "Roboto", Helvetica, Arial, sans-serif; 
   background-color: #fbfaf9 !important;
   border: 0px !important;
   color: #485e89 !important;
@@ -50,6 +52,7 @@ h2
 h3
  {
     font-size: 1.875rem;
+color: #3e5674 !important;
   }
 
 h4
@@ -111,7 +114,7 @@ a {
 }
 
 a:hover {
-  color: #518fc6;
+  color: #518fc6; 
   text-decoration: none;
 }
 
@@ -123,9 +126,18 @@ pre {
   font-size: 0.875em;
 }
 
+.amount-totals{ color: #b2a3cd !important; 
+}
+
 /* 
 TOP HEADER (MASTHEAD)
 */
+
+#masthead,#logo,#account,.details,#account-nav,#my-account-btn,#account-sign-out-btn
+{ background: #b2a3cd !important;
+color: #ffffff !important;
+
+}
 
 /* Logo */
 #logo {
@@ -136,6 +148,8 @@ TOP HEADER (MASTHEAD)
   display:none;
 }
 
+
+
 /* 
 BUTTONS 
 */
@@ -143,7 +157,8 @@ BUTTONS
 /* Change call to action button colors */
 #subscription-change-offer-btn, #subscription-change-plan-btn, #cancel-link, 
 #billings-update-btn, #shipping-address-edit-btn, #subscription-configure-btn, 
-#hold-link, #subscription-apply-coupon-btn, #resume-link {
+#hold-link, #subscription-apply-coupon-btn, #resume-link,#new-coupon-apply-code-btn
+{
   background: #b2a3cd !important;
   color: #ffffff;
   border-color: transparent;
@@ -156,9 +171,10 @@ BUTTONS
 }
 /* All other buttons */
 .button {
-  background: #518fc6 !important;
+  background: #b2a3cd  !important;
   border-color: transparent;
   color: #ffffff;
+opacity: 0.75;
 }
 
 /* 
